@@ -12,7 +12,7 @@
 */
 
 Route::get('/',function(){
-    return view('layouts.master');
+    return view('post.home');
 });
 Route::get('/proyek/create','ItemController@create');
 
